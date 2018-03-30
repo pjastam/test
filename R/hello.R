@@ -14,5 +14,7 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 hello <- function(x) {
-  print(paste("Hello, world! The square of your input", x, "is", x*x))
+  print("Hello, world!")
+  print(paste("The square of your input", x, "is", x*x))
+  print(paste("And the cube of your input", x, "is", x*x*x))
 }
